@@ -1,0 +1,136 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Jul 10 16:37:51 2024
+| Host         : LAPTOP-POBHROGD running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file sccomp_dataflow_control_sets_placed.rpt
+| Design       : sccomp_dataflow
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    83 |
+| Unused register locations in slices containing registers |     5 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             123 |           62 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              32 |           20 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              32 |           12 |
+| Yes          | Yes                   | No                     |            2048 |         1012 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------+----------------------------------+------------------+------------------+----------------+
+|    Clock Signal   |           Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-------------------+----------------------------------+------------------+------------------+----------------+
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[10][0][0]     | reset_IBUF       |               23 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[23][0][0]       | reset_IBUF       |               16 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[24][0][0]       | reset_IBUF       |                9 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[25][0][0]       | reset_IBUF       |                8 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[26][0][0]       | reset_IBUF       |                7 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[27][0][0]       | reset_IBUF       |               10 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[28][0][0]       | reset_IBUF       |               10 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[2][0][0]        | reset_IBUF       |                6 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[30][0][0]       | reset_IBUF       |                8 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[3][0][0]        | reset_IBUF       |                5 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[2][0][0]      | reset_IBUF       |               20 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[4][0][0]        | reset_IBUF       |                8 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[5][0][0]        | reset_IBUF       |                9 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[6][0][0]        | reset_IBUF       |                9 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[7][0][0]        | reset_IBUF       |               18 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[8][0][0]        | reset_IBUF       |               11 |             32 |
+| ~clk_in_IBUF_BUFG |                                  | reset_IBUF       |               20 |             32 |
+| ~clk_in_IBUF_BUFG | imem/HI_w                        | reset_IBUF       |               11 |             32 |
+| ~clk_in_IBUF_BUFG | imem/LO_w                        | reset_IBUF       |               12 |             32 |
+| ~clk_in_IBUF_BUFG | imem/E[0]                        | reset_IBUF       |               16 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[9][0][0]        | reset_IBUF       |               14 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[11][0][0]     | reset_IBUF       |               21 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[12][0][0]     | reset_IBUF       |               23 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[13][0][0]     | reset_IBUF       |               23 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[14][0][0]     | reset_IBUF       |               16 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[15][0][0]     | reset_IBUF       |               18 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[16][0][0]     | reset_IBUF       |               26 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[17][0][0]     | reset_IBUF       |               22 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[18][0][0]     | reset_IBUF       |               22 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[19][0][0]     | reset_IBUF       |               21 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[1][0][0]      | reset_IBUF       |               22 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[20][0][0]     | reset_IBUF       |               24 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[21][0][0]     | reset_IBUF       |               23 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[22][0][0]     | reset_IBUF       |               20 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[23][0][0]     | reset_IBUF       |               26 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[24][0][0]     | reset_IBUF       |               22 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[25][0][0]     | reset_IBUF       |               24 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[26][0][0]     | reset_IBUF       |               23 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[27][0][0]     | reset_IBUF       |               22 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[28][0][0]     | reset_IBUF       |               27 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[29][0][0]     | reset_IBUF       |               24 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[29][0][0]       | reset_IBUF       |                7 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[30][0][0]     | reset_IBUF       |               24 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[31][0][0]     | reset_IBUF       |               25 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[3][0][0]      | reset_IBUF       |               14 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[4][0][0]      | reset_IBUF       |               16 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[5][0][0]      | reset_IBUF       |               21 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[6][0][0]      | reset_IBUF       |               21 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[7][0][0]      | reset_IBUF       |               20 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[8][0][0]      | reset_IBUF       |               23 |             32 |
+| ~clk_in_IBUF_BUFG | imem/array_reg_reg[9][0][0]      | reset_IBUF       |               27 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[0][0][0]        | reset_IBUF       |                8 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[10][0][0]       | reset_IBUF       |               12 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[11][0][0]       | reset_IBUF       |               11 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[12][31]_0[0]    | reset_IBUF       |               10 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[13][31]_0[0]    | reset_IBUF       |               12 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[14][31][0]      | reset_IBUF       |               15 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[15][0][0]       | reset_IBUF       |               11 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[16][0][0]       | reset_IBUF       |                7 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[17][0][0]       | reset_IBUF       |               13 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[18][0][0]       | reset_IBUF       |                7 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[19][0][0]       | reset_IBUF       |                9 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[1][0][0]        | reset_IBUF       |                8 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[20][0][0]       | reset_IBUF       |                8 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[21][0][0]       | reset_IBUF       |                7 |             32 |
+| ~clk_in_IBUF_BUFG | imem/cp0_reg_reg[22][0][0]       | reset_IBUF       |                9 |             32 |
+|  n_0_1069_BUFG    |                                  |                  |               62 |            123 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_10 |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_11 |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_12 |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_15 |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_13 |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_14 |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_16 |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_2  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_3  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_5  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_6  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_7  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_8  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_9  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_4  |                  |               33 |            132 |
+|  clk_in_IBUF_BUFG | sccpu/alu/array_reg_reg[0][0]_1  |                  |               33 |            132 |
++-------------------+----------------------------------+------------------+------------------+----------------+
+
+

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Aug 15 10:30:16 2024
+# Process ID: 40516
+# Current directory: G:/大二归档/大二下归档/Computer Organization/CPU54/54-single-CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29512 G:\大二归档\大二下归档\Computer Organization\CPU54\54-single-CPU\54-single-CPU.xpr
+# Log file: G:/大二归档/大二下归档/Computer Organization/CPU54/54-single-CPU/vivado.log
+# Journal file: G:/大二归档/大二下归档/Computer Organization/CPU54/54-single-CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/大二归档/大二下归档/Computer Organization/CPU54/54-single-CPU/54-single-CPU.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/Computer Organization/CPU54/54-single-CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 869.434 ; gain = 181.082
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 15 10:31:06 2024...
